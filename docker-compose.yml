@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  atcoder_ruby:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./src:/root/atcoder_ruby/src
+    tty: true

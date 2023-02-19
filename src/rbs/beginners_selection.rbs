@@ -1,0 +1,3 @@
+class BeginnersSelection
+  def practice_a: () -> untyped
+end
